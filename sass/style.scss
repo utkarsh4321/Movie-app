@@ -6,23 +6,60 @@
 --primary-color:#141414;
 --font-color:#F8B815;
 --icon-color:#B5B9BC;
-
-
+--nav-initial-color:rgba(0,0,0,.5);
+ .navbar .custom-switch .custom-control-label::after{
+    background-color: transparent;
+    margin-left:.6rem;
+    box-shadow: -7px 0px 0 0 #e6e1e1;
+    height: calc(1rem + 2px);
+    width: calc(1rem + 2px);
+    margin-top:1px;
 }
-
-[dark-theme="dark"]{
+.navbar .custom-control-label::before{
+    background: transparent;
+    border:1px solid #fff;
+    width: 3.6rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+}
+}
+[dark-theme="light"]{
 --primary-color:#fff;
 --font-color:#000;
 --icon-color:#B5B9BC;
+--nav-initial-color:rgba(255,255,255,.5);
+
+.navbar .custom-switch .custom-control-label::after{
+    background-color: #F8B815;
+    box-shadow:none;
+    height: calc(1rem + 2px);
+    width: calc(1rem + 2px);
+    border-radius: 100%;
+    transform: translateX(1.78rem);
+    margin-top:1px;
+margin-left:5px;
+}
+.navbar .custom-control-label::before{
+    background: transparent;
+    border:1px solid #F8B815;
+    width: 3.6rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+
+}
+
 
 }
 
 body{
     background-color: var(--primary-color);
+    // transition: all .5s ease;
     color:var(--font-color);
     font-family: 'Raleway', sans-serif;
-letter-spacing: .1rem;
-box-sizing: border-box;
+    letter-spacing: .1rem;
+    box-sizing: border-box;
 }
 @import 'media';
 @import 'navbar';
+
+
