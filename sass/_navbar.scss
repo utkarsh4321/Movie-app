@@ -1,0 +1,65 @@
+.navbar{
+    background-color:#fff;
+    color:var(--font-color);
+
+    
+    & .nav-link{
+        color:var(--font-color);
+        text-decoration: none;
+        font-size: .9rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: inline-block;
+        
+    }
+    & svg{
+        width:1.6rem;
+        height: 1.5rem;
+        fill:var(--icon-color);
+        // background-size: 1rem;
+        
+    }
+    // & .navbar-light,.navbar-toggler{
+    //     border:none;
+    // }
+ 
+.navbar-togg{
+    display: block;
+    width:30px;
+    height: 2px;
+    &:not(:last-child){
+        margin-bottom:10px;
+    }
+    background-color: red;
+
+    
+    
+}
+.navbar-toggler:focus{
+outline: none;
+border:none;
+}
+    
+    & .rockets{
+        color:var(--icon-color);
+    }
+    & .brand{
+        font-weight: bolder;
+    }
+    & .borders{
+        border:2px solid var(--font-color);
+        border-radius:6px;
+        transform: skewX(-15deg);
+    }
+    & li{
+        margin:0 2rem;
+        @include medium{
+        &:not(:last-child){
+        margin:0 0 1rem 0;
+        }
+        }
+    }
+
+}
+
+

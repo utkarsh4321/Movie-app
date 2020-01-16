@@ -1,0 +1,28 @@
+
+
+
+:root{
+
+--primary-color:#141414;
+--font-color:#F8B815;
+--icon-color:#B5B9BC;
+
+
+}
+
+[dark-theme="dark"]{
+--primary-color:#fff;
+--font-color:#000;
+--icon-color:#B5B9BC;
+
+}
+
+body{
+    background-color: var(--primary-color);
+    color:var(--font-color);
+    font-family: 'Raleway', sans-serif;
+letter-spacing: .1rem;
+box-sizing: border-box;
+}
+@import 'media';
+@import 'navbar';
