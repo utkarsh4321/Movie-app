@@ -1,0 +1,36 @@
+{
+    "name": "lomash-mocies",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "node-sass -w --output-style compressed ./sass/style.scss -o css ",
+        "lint:fix": "eslint js/*.js --fix",
+        "lint": "eslint js/*.js",
+  
+        "prettify": "prettier css/*.css --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/utkarsh4321/Movie-app.git"
+    },
+    
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/utkarsh4321/Movie-app/issues"
+    },
+    "homepage": "https://github.com/utkarsh4321/Movie-app#readme",
+    "dependencies": {
+        "node-sass": "^4.13.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "husky": "^4.0.10",
+        "lint-staged": "^9.5.0",
+        "prettier": "^1.19.1"
+    }
+}

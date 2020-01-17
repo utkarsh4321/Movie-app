@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #141414;
+    --font-color: #f8b815;
+    --icon-color: #b5b9bc;
+    --nav-initial-color: rgba(0, 0, 0, 0.5);
+}
+:root .navbar .custom-switch .custom-control-label::after {
+    background-color: transparent;
+    margin-left: 0.6rem;
+    box-shadow: -7px 0px 0 0 #e6e1e1;
+    height: calc(1rem + 2px);
+    width: calc(1rem + 2px);
+    margin-top: 1px;
+}
+:root .navbar .custom-control-label::before {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 3.6rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+}
+[dark-theme='light'] {
+    --primary-color: #fff;
+    --font-color: #000;
+    --icon-color: #b5b9bc;
+    --nav-initial-color: rgba(255, 255, 255, 0.5);
+}
+[dark-theme='light'] .navbar .custom-switch .custom-control-label::after {
+    background-color: #f8b815;
+    box-shadow: none;
+    height: calc(1rem + 2px);
+    width: calc(1rem + 2px);
+    border-radius: 100%;
+    transform: translateX(1.78rem);
+    margin-top: 1px;
+    margin-left: 5px;
+}
+[dark-theme='light'] .navbar .custom-control-label::before {
+    background: transparent;
+    border: 1px solid #f8b815;
+    width: 3.6rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+}
+body {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+.navbar .home {
+    transform: skewX(15deg);
+}
+.navbar .nav-link {
+    color: var(--font-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+}
+.navbar .register {
+    background-color: var(--font-color);
+    transform: skewX(-15deg);
+    border-radius: 6px;
+    padding: 0 1rem;
+}
+.navbar .register a {
+    color: var(--primary-color);
+    transform: skewX(15deg);
+    font-weight: 400;
+    margin-top: 2px;
+}
+.navbar svg {
+    width: 1.6rem;
+    height: 1.5rem;
+    fill: var(--icon-color);
+}
+.navbar .navbar-toggler {
+    width: 50px;
+    height: 45px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.navbar .navbar-toggler .navbar-togg {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: var(--font-color);
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+.navbar .navbar-toggler .navbar-togg:nth-child(1) {
+    top: 5px;
+}
+.navbar .navbar-toggler .navbar-togg:nth-child(2) {
+    top: 18px;
+}
+.navbar .navbar-toggler .navbar-togg:nth-child(3) {
+    top: 32px;
+}
+.navbar .navbar-toggler.open .navbar-togg:nth-child(1) {
+    top: 18px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+.navbar .navbar-toggler.open .navbar-togg:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+.navbar .navbar-toggler.open .navbar-togg:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.navbar .navbar-toggler:focus {
+    outline: none;
+    border: none;
+}
+.navbar .rockets {
+    color: var(--icon-color);
+}
+.navbar .brand {
+    font-weight: bolder;
+}
+.navbar .borders {
+    border: 2px solid var(--font-color);
+    border-radius: 6px;
+    transform: skewX(-15deg);
+}
+.navbar li {
+    margin: 0 2rem;
+}
+@media screen and (max-width: 61.8em) {
+    .navbar li:not(:last-child) {
+        margin: 0 0 1rem 0;
+    }
+}
