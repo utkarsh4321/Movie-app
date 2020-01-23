@@ -137,9 +137,9 @@
     & li{
         margin:0 2rem;
         @include medium{
-        &:not(:last-child){
+        
         margin:0 0 1rem 0;
-        }
+        
         }
     }
 

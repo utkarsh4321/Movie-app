@@ -5,11 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "sass": "node-sass -w --output-style compressed ./sass/style.scss -o css ",
-        "lint:fix": "eslint js/*.js --fix",
-        "lint": "eslint js/*.js",
-  
-        "prettify": "prettier css/*.css --write"
+        "sass": "node-sass -w --output-style compressed ./sass/style.scss -o css"
+        
     },
     "repository": {
         "type": "git",

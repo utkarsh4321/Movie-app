@@ -1,3 +1,4 @@
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme'):null;
 $(document).ready(function(){
 
     $('.navbar-toggler').click(function(){
@@ -16,7 +17,6 @@ document.documentElement.setAttribute('dark-theme','dark');
         }
     })
 })
-const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme'):null;
 
 if(currentTheme){
     document.documentElement.setAttribute('dark-theme',currentTheme);
@@ -27,34 +27,59 @@ if(currentTheme){
 
 }
 
-$(window).scroll(function () {
+$(document).ready(function(){
+    $('.your-class').slick();
+  });
+// $(window).scroll(function () {
+//     const theme = localStorage.getItem('theme')?localStorage.getItem('theme'):null;
+//     if ($(window).scrollTop() >= 10) {
     
-    if ($(window).scrollTop() >= 10) {
-    // switch(currentTheme){
+//     if(theme){
+//         if(theme === 'dark'){
 
-    //    case currentTheme === 'light':
-    //        console.log(currentTheme,'from light on scroll');
-    //         $('.navbar').css('background','white');
-    //         break;
-    //    case currentTheme === 'dark':
-    //     console.log(currentTheme,'from dark on scroll');
+//             $('.navbar').css('background','#141414');
+//         }
+//         if(theme === 'light'){
+//             $('.navbar').css('background','#fff');
 
-    //         $('.navbar').css('background','#141414');
-    //         break;
-    // }
-    } else {
-        // switch(currentTheme){
-        //     case currentTheme === 'light':
-        //         console.log(currentTheme,'from light on not scroll');
+//         }
+//     }
+//     }else{
+//         if(theme === 'dark'){
 
-        //          $('.navbar').css('background','rgba(255,255,255,.5)');
-        //          break;
-        //     case currentTheme === 'dark':
-        //         console.log(currentTheme,'from dark on  not scroll');
+//             $('.navbar').css('background','rgba(0,0,0,.8)');
+//         }
+//         if(theme === 'light'){
+//             $('.navbar').css('background','rgba(255,255,255,.8)');
+        
+//         }
 
-        //          $('.navbar').css('background','rgba(0,0,0,.5)');
-        //          break;
-        //  }
-        $('.navbar').css('background','transparent');
-    }
-    });
+//     }
+//     });
+
+//     function setTheCurrentTheme(){
+//         const currentTheme = localStorage.getItem('theme')?localStorage.getItem('theme'):null;
+// console.log(currentTheme);
+// if(currentTheme){
+//     if(currentTheme === 'dark' && $(window).scrollTop() <= 10){
+//         $('.navbar').css('background','rgba(0,0,0,.8)');
+
+//     }
+//     if(currentTheme === 'light' && $(window).scrollTop() <= 10){
+//         $('.navbar').css('background','rgba(255,255,255,.8)');
+
+//     }
+//     if(currentTheme === 'dark' && $(window).scrollTop() >= 10){
+//         $('.navbar').css('background','#141414');
+
+//     }
+//     if(currentTheme === 'light' && $(window).scrollTop() >= 10){
+//         $('.navbar').css('background','#fff');
+
+//     }
+// }
+
+
+//     }
+// setInterval(()=>setTheCurrentTheme(),100);
+// clearInterval();

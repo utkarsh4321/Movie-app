@@ -1,9 +1,9 @@
 
-
-
 :root{
 
 --primary-color:#141414;
+//  --primary-color:rgba(0,0,0,.8);
+
 --font-color:#F8B815;
 --icon-color:#B5B9BC;
 --nav-initial-color:rgba(0,0,0,.5);
@@ -13,6 +13,7 @@
     box-shadow: -7px 0px 0 0 #e6e1e1;
     height: calc(1rem + 2px);
     width: calc(1rem + 2px);
+    color:green;
     margin-top:1px;
 }
 .navbar .custom-control-label::before{
@@ -25,6 +26,9 @@
 }
 [dark-theme="light"]{
 --primary-color:#fff;
+// --primary-color:rgba(255,255,255,.8);
+
+
 --font-color:#000;
 --icon-color:#B5B9BC;
 --nav-initial-color:rgba(255,255,255,.5);
@@ -58,8 +62,11 @@ body{
     font-family: 'Raleway', sans-serif;
     letter-spacing: .1rem;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
+
 @import 'media';
 @import 'navbar';
+@import 'caruasel';
 
 

@@ -11,7 +11,7 @@
     }
 }
 @mixin small{
-    @media screen and (max-width:30em){
+    @media screen and (max-width:40em){
         @content;
     }
 }
