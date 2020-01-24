@@ -64,9 +64,21 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+}
 
+
+
+
+
+  /* the parent */
+//   .slick-list {
+//     margin: 0 -27px;
+//   }
 @import 'media';
 @import 'navbar';
 @import 'caruasel';
+@import 'card';
 
 

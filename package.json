@@ -5,14 +5,13 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "sass": "node-sass -w --output-style compressed ./sass/style.scss -o css"
-        
+        "sass": "node-sass -w --output-style compressed ./sass/style.scss -o css",
+        "server": "npx http-server -o ./index.html -w"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/utkarsh4321/Movie-app.git"
     },
-    
     "keywords": [],
     "author": "",
     "license": "ISC",
