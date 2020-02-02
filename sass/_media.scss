@@ -1,17 +1,16 @@
-
-@mixin  large {
-@media screen and (min-width:80em){
-@content;
-}
+@mixin large {
+  @media screen and (min-width: 80em) {
+    @content;
+  }
 }
 
 @mixin medium {
-    @media screen and (max-width:61.8em){
-        @content;
-    }
+  @media screen and (max-width: 61.8em) {
+    @content;
+  }
 }
-@mixin small{
-    @media screen and (max-width:40em){
-        @content;
-    }
+@mixin small {
+  @media screen and (max-width: 40em) {
+    @content;
+  }
 }

@@ -1,148 +1,132 @@
-.navbar{
-    background-color:var(--primary-color);
-    color:var(--font-color);
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--font-color);
 
-    & .home{
-        transform: skewX(15deg);
+  & .home {
+    transform: skewX(15deg);
+  }
+
+  & .nav-link {
+    color: var(--font-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+  }
+  & .register {
+    background-color: var(--font-color);
+    transform: skewX(-15deg);
+    border-radius: 6px;
+    padding: 0 1rem;
+    & a {
+      color: var(--primary-color);
+      transform: skewX(15deg);
+      font-weight: 400;
+      margin-top: 2px;
     }
-    
-    & .nav-link{
-        color:var(--font-color);
-        text-decoration: none;
-        font-size: .9rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        display: inline-block;
-        cursor: pointer;
-        
+  }
+  & svg {
+    width: 1.6rem;
+    height: 1.5rem;
+    fill: var(--icon-color);
+    // background-size: 1rem;
+  }
+  // & .navbar-light,.navbar-toggler{
+  //     border:none;
+  // }
+
+  & .navbar-toggler {
+    width: 50px;
+    height: 45px;
+    position: relative;
+    //   margin: 50px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    //   cursor: pointer;
+    & .navbar-togg {
+      // display: block;
+      // width:30px;
+      // height: 2px;
+      // &:not(:last-child){
+      //     margin-bottom:10px;
+      // }
+      // background-color: red;
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      // width: 100%;
+      background: var(--font-color);
+      border-radius: 9px;
+      opacity: 1;
+      left: 0;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: 0.25s ease-in-out;
+      -moz-transition: 0.25s ease-in-out;
+      -o-transition: 0.25s ease-in-out;
+      transition: 0.25s ease-in-out;
+
+      &:nth-child(1) {
+        top: 5px;
+      }
+      &:nth-child(2) {
+        top: 18px;
+      }
+      &:nth-child(3) {
+        top: 32px;
+      }
     }
-    & .register{
-        background-color: var(--font-color);
-        transform: skewX(-15deg);
-        border-radius: 6px;
-        padding:0 1rem;
-        & a{
-            color:var(--primary-color);
-            transform: skewX(15deg);
-            font-weight: 400;
-            margin-top:2px;
-
-
-        }
+    &.open .navbar-togg:nth-child(1) {
+      top: 18px;
+      -webkit-transform: rotate(135deg);
+      -moz-transform: rotate(135deg);
+      -o-transform: rotate(135deg);
+      transform: rotate(135deg);
     }
-    & svg{
-        width:1.6rem;
-        height: 1.5rem;
-        fill:var(--icon-color);
-        // background-size: 1rem;
-        
+    &.open .navbar-togg:nth-child(2) {
+      opacity: 0;
+      left: -60px;
     }
-    // & .navbar-light,.navbar-toggler{
-    //     border:none;
-    // }
-    
-    & .navbar-toggler{
-        width: 50px;
-        height: 45px;
-        position: relative;
-        //   margin: 50px auto;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-transition: .5s ease-in-out;
-        -moz-transition: .5s ease-in-out;
-        -o-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-//   cursor: pointer;
-        & .navbar-togg{
-            // display: block;
-            // width:30px;
-            // height: 2px;
-            // &:not(:last-child){
-            //     margin-bottom:10px;
-            // }
-            // background-color: red;
-            display: block;
-            position: absolute;
-            height: 2px;
-            width:100%;
-            // width: 100%;
-            background: var(--font-color);
-            border-radius: 9px;
-            opacity: 1;
-            left: 0;
-            -webkit-transform: rotate(0deg);
-            -moz-transform: rotate(0deg);
-            -o-transform: rotate(0deg);
-            transform: rotate(0deg);
-            -webkit-transition: .25s ease-in-out;
-            -moz-transition: .25s ease-in-out;
-            -o-transition: .25s ease-in-out;
-            transition: .25s ease-in-out;
-            
-            &:nth-child(1){
-                top:5px;
-            }
-            &:nth-child(2){
-                top:18px;
-            }
-            &:nth-child(3){
-                top:32px;
-            }
-      
-        }
-        &.open .navbar-togg:nth-child(1){
-            top:18px;
-            -webkit-transform: rotate(135deg);
-            -moz-transform: rotate(135deg);
-            -o-transform: rotate(135deg);
-            transform: rotate(135deg);
-        }
-        &.open .navbar-togg:nth-child(2){
-            opacity: 0;
-            left: -60px;
-
-        }
-        &.open .navbar-togg:nth-child(3){
-            top: 18px;
-            -webkit-transform: rotate(-135deg);
-            -moz-transform: rotate(-135deg);
-            -o-transform: rotate(-135deg);
-            transform: rotate(-135deg);
-
-
-        }
-
-
-        &:focus{
-            outline: none;
-            border:none;
-        }
-
+    &.open .navbar-togg:nth-child(3) {
+      top: 18px;
+      -webkit-transform: rotate(-135deg);
+      -moz-transform: rotate(-135deg);
+      -o-transform: rotate(-135deg);
+      transform: rotate(-135deg);
     }
 
-    
-    & .rockets{
-        color:var(--icon-color);
+    &:focus {
+      outline: none;
+      border: none;
     }
-    & .brand{
-        font-weight: bolder;
-    }
-    & .borders{
-        border:2px solid var(--font-color);
-        border-radius:6px;
-        transform: skewX(-15deg);
-    }
-    & li{
-        margin:0 2rem;
-        @include medium{
-        
-        margin:0 0 1rem 0;
-        
-        }
-    }
+  }
 
+  & .rockets {
+    color: var(--icon-color);
+  }
+  & .brand {
+    font-weight: bolder;
+  }
+  & .borders {
+    border: 2px solid var(--font-color);
+    border-radius: 6px;
+    transform: skewX(-15deg);
+  }
+  & li {
+    margin: 0 2rem;
+    @include medium {
+      margin: 0 0 1rem 0;
+    }
+  }
 }
-
-
