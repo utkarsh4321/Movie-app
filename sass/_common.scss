@@ -11,11 +11,12 @@
         left: 0;
         transform: scale3d(0, 0, 1);
         transition: transform 0.3s ease-out 0s;
-        @if #{var(--primary-color)} == #fff {
-          background: rgba(255, 255, 255, 0.1);
-        } @else {
-          background: rgba(0, 0, 0, 0.1);
-        }
+        // @if #{var(--primary-color)} == #fff {
+        //   background: rgba(255, 255, 255, 0.1);
+        // } @else {
+        //   background: rgba(0, 0, 0, 0.1);
+        // }
+        background: rgba(var(--primary-color-rgb), 0.3);
         content: "";
         pointer-events: none;
       }

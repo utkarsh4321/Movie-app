@@ -1,0 +1,6 @@
+#movie__container--for-single-series {
+  & .card {
+    background-color: var(--footer-color);
+    box-shadow: 0px 0px 7px -2px rgba(var(--box-shadow-movie-card), 0.73);
+  }
+}

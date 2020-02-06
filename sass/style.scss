@@ -1,10 +1,17 @@
+@function hexToRgb($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
 :root {
   --primary-color: #141414;
   //  --primary-color:rgba(0,0,0,.8);
-
+  --primary-color-rgb: #{hexToRgb(#141414)};
+  --footer-color: #191919;
   --font-color: #f8b815;
   --icon-color: #b5b9bc;
   --nav-initial-color: rgba(0, 0, 0, 0.5);
+  --box-shadow-movie-card: #{hexToRgb(#f8b815)};
+
   .navbar .custom-switch .custom-control-label::after {
     background-color: transparent;
     margin-left: 0.6rem;
@@ -25,11 +32,12 @@
 [dark-theme="light"] {
   --primary-color: #fff;
   // --primary-color:rgba(255,255,255,.8);
-
+  --primary-color-rgb: #{hexToRgb(#fff)};
+  --footer-color: #f4f4f4;
   --font-color: #000;
   --icon-color: #b5b9bc;
   --nav-initial-color: rgba(255, 255, 255, 0.5);
-
+  --box-shadow-movie-card: #{hexToRgb(#000)};
   .navbar .custom-switch .custom-control-label::after {
     background-color: #f8b815;
     box-shadow: none;
@@ -61,6 +69,13 @@ body {
 a {
   text-decoration: none;
 }
+// Footer
+.footer__section {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 7rem;
+  background-color: var(--footer-color);
+}
 
 /* the parent */
 //   .slick-list {
@@ -71,3 +86,4 @@ a {
 @import "navbar";
 @import "caruasel";
 @import "card";
+@import "movielist";
