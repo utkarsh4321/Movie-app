@@ -67,7 +67,12 @@ body {
   overflow-x: hidden;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: var(--font-color);
+  &:hover,
+  &:active {
+    color: var(--font-color);
+  }
 }
 // Footer
 .footer__section {
@@ -76,7 +81,14 @@ a {
   margin-top: 7rem;
   background-color: var(--footer-color);
 }
-
+.sl--content-container {
+  background-color: var(--primary-color);
+}
+.swiper-slide-prev .slide-cover,
+.swiper-slide-next .slide-cover,
+.slide-cover {
+  background-color: var(--primary-color);
+}
 /* the parent */
 //   .slick-list {
 //     margin: 0 -27px;

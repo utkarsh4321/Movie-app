@@ -94,6 +94,42 @@ $(document).ready(function() {
   });
 });
 
+let display_1 = document.getElementById("display-1"),
+  display_2 = document.getElementById("display-2"),
+  display_3 = document.getElementById("display-3");
+
+let typewriter1 = new Typewriter(display_1, {
+  loop: true
+});
+let typewriter2 = new Typewriter(display_2, {
+  loop: true
+});
+let typewriter3 = new Typewriter(display_3, {
+  loop: true
+});
+
+typewriter1
+  .typeString("DareDevil")
+  .pauseFor(3000)
+  .deleteAll()
+  .typeString("DareDevil")
+  .start();
+typewriter2
+  .typeString("Jumanji")
+  .pauseFor(3000)
+  .deleteAll()
+  .typeString("Jumanji")
+  .start();
+typewriter3
+  .typeString("Venom")
+  .pauseFor(3000)
+  .deleteAll()
+  .typeString("Venom")
+  .start();
+
+// INITILIZATION OF MASSONARY
+
+//LOGIN FOR ADDING COLOR CHANGE EFFECT
 // $(window).scroll(function () {
 //     const theme = localStorage.getItem('theme')?localStorage.getItem('theme'):null;
 //     if ($(window).scrollTop() >= 10) {
