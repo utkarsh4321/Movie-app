@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>
+    <note>
+      <remark>HTML: &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;</remark>
+    </note>
+    <note>
+      <remark>&lt;link</remark>
+    </note>
+    <note>
+      <remark>href="https://fonts.googleapis.com/css?family=Rubik:300,400,700,900"</remark>
+    </note>
+    <note>
+      <remark>rel="stylesheet"</remark>
+    </note>
+    <note>
+      <remark>/&gt;</remark>
+    </note>
+    <note>
+      <remark>&lt;link</remark>
+    </note>
+    <note>
+      <remark>rel="stylesheet"</remark>
+    </note>
+    <note>
+      <remark>href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/f2-common.css"</remark>
+    </note>
+    <note>
+      <remark>/&gt;</remark>
+    </note>
+    <note>
+      <remark>&lt;link</remark>
+    </note>
+    <note>
+      <remark>rel="stylesheet"</remark>
+    </note>
+    <note>
+      <remark>href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/swiper.min.css"</remark>
+    </note>
+    <note>
+      <remark>/&gt;</remark>
+    </note>
+    <note>
+      <remark>&lt;link rel="stylesheet" href="./css//swipers.css" /&gt;</remark>
+    </note>
+    <note>
+      <remark>&lt;a class="navbar-brand" href="#"&gt;&lt;/a&gt;</remark>
+    </note>
+    <olink targetdocent="index.html">Znmovies</olink>
+  </para>
+  <sect1 id="navbarTogglerDemo02">
+    <orderedlist>
+      <listitem>
+        <para>Home (current) </para>
+      </listitem>
+      <listitem>
+        <para><link linkend="">Suscribe</link> </para>
+      </listitem>
+      <listitem>
+        <para><link linkend="">sign in | Register</link> </para>
+      </listitem>
+      <listitem>
+        <para/>
+      </listitem>
+    </orderedlist>
+  </sect1>
+  <sect1 id="carouselExampleControls">
+    <para><anchor id="display-1"/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit veniam recusandae accusamus consequatur nulla! Placeat porro numquam magnam soluta consequuntur! </para>
+    <para>Download </para>
+    <para><inlinegraphic fileref="#assets/img/daredevil_season_2_wallpaper_by_davidsobo_d9vn1bd.jpg" width="0.7862inch" depth="0.3929inch"/> </para>
+    <para><anchor id="display-2"/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit veniam recusandae accusamus consequatur nulla! Placeat porro numquam magnam soluta consequuntur! </para>
+    <para>Download </para>
+    <para><inlinegraphic fileref="#assets/img/jumnaji.jpg" width="0.7862inch" depth="0.3929inch"/> </para>
+    <para><anchor id="display-3"/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit veniam recusandae accusamus consequatur nulla! Placeat porro numquam magnam soluta consequuntur! </para>
+    <para>Download </para>
+    <para><inlinegraphic fileref="#assets/img/Venom-Movie.jpg" width="0.7862inch" depth="0.3929inch"/> <note><remark>&lt;a</remark></note><note><remark>class="carousel-control-prev"</remark></note><note><remark>href="#carouselExampleControls"</remark></note><note><remark>role="button"</remark></note><note><remark>data-slide="prev"</remark></note><note><remark>&gt;</remark></note><note><remark>&lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;</remark></note><note><remark>&lt;span class="sr-only"&gt;Previous&lt;/span&gt;</remark></note><note><remark>&lt;/a&gt;</remark></note><note><remark>&lt;a</remark></note><note><remark>class="carousel-control-next"</remark></note><note><remark>href="#carouselExampleControls"</remark></note><note><remark>role="button"</remark></note><note><remark>data-slide="next"</remark></note><note><remark>&gt;</remark></note><note><remark>&lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;</remark></note><note><remark>&lt;span class="sr-only"&gt;Next&lt;/span&gt;</remark></note><note><remark>&lt;/a&gt;</remark></note></para>
+  </sect1>
+  <sect1>
+    <title>Watch Next Movies &amp; Web Series </title>
+    <para>
+      <inlinegraphic fileref="#assets/img/avengers.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/sim.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/maxresdefaults.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/ashiqui.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/thir.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/0_hnHkR1wS086JHPSN.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/maxresdefault.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/thunder.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/x-men-apocalypse-ensemble.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/jack_ryan_amazon_1382776.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+  </sect1>
+  <sect1>
+    <title>Popular Movies, Web Series &amp; Songs </title>
+    <para><olink targetdocent="moviesList.html">See more</olink> </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/war.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <sect2>
+      <title>
+        <link linkend="">War</link>
+      </title>
+      <link linkend="">War</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/blackwidow.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">Black Widow</link>
+      </title>
+      <link linkend="">Black Widow</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/bset-kids-movies-2019-aladdin-1555082928.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">Aladdin</link>
+      </title>
+      <link linkend="">Aladdin</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/810AwpOyZfL._RI_.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">Captain Marvel</link>
+      </title>
+      <link linkend="">Captain Marvel</link>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title>Upcoming movies </title>
+    <para><olink targetdocent="moviesList.html">See more</olink> </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/fast-and-furious-9-poster-20200201112244394.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <sect2>
+      <title>
+        <link linkend="">Fast and Furious 9</link>
+      </title>
+      <link linkend="">Fast and Furious 9</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/XygbkyyOuD1x.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">No Time To Die</link>
+      </title>
+      <link linkend="">No Time To Die</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/sonic.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">Sonic</link>
+      </title>
+      <link linkend="">Sonic</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/220px-The_Call_of_the_Wild_poster.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">The call of wild</link>
+      </title>
+      <link linkend="">The call of wild</link>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title>Web Series </title>
+    <para><olink targetdocent="moviesList.html">See more</olink> </para>
+    <para>
+      <inlinegraphic fileref="#assets/img/wanda.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <link linkend=""> </link>
+    </para>
+    <sect2>
+      <title>
+        <link linkend="">Wanda vision</link>
+      </title>
+      <link linkend="">Wanda vision</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/inhumans_lob_crd_01.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">Inhumans</link>
+      </title>
+      <link linkend="">Inhumans</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/vikins.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">Vikins</link>
+      </title>
+      <link linkend="">Vikins</link>
+      <para>
+        <inlinegraphic fileref="#assets/img/MV5BMjI5Mjg1NDcyOV5BMl5BanBnXkFtZTgwMjAxOTQ5MTI@._V1_.jpg" width="0.8071inch" depth="0.4138inch"/>
+        <link linkend=""> </link>
+      </para>
+    </sect2>
+    <sect2>
+      <title>
+        <link linkend="">Iron Fist</link>
+      </title>
+      <link linkend="">Iron Fist</link>
+      <sect3>
+        <title>copright © 2020,znmovies </title>
+        <para>
+          <note>
+            <remark>End Of content</remark>
+          </note>
+          <note>
+            <remark>&lt;script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/swiper.jquery.min.js"&gt;&lt;/script&gt;</remark>
+          </note>
+          <note>
+            <remark>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"&gt;&lt;/script&gt;</remark>
+          </note>
+          <note>
+            <remark>&lt;script src="js/app.js"&gt;&lt;/script&gt;</remark>
+          </note>
+        </para>
+      </sect3>
+    </sect2>
+  </sect1>
+</article>
